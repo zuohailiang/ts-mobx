@@ -1,0 +1,80 @@
+@charset "utf-8";
+
+/* CSS Document */
+
+
+/*reset-css*/
+
+body {
+    margin: 0;
+    font-size: 12px;
+    line-height: 1 !important;
+    font-family: 'Arial';
+}
+
+html {
+    font-size: 16px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    font-weight: normal;
+}
+
+p {
+    margin: 0;
+}
+
+ul,
+ol {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+dl,
+dd {
+    margin: 0;
+}
+
+img {
+    vertical-align: middle;
+}
+
+b,
+strong {
+    font-weight: normal;
+}
+
+em,
+i {
+    font-style: normal;
+}
+
+a {
+    text-decoration: none;
+}
+
+input {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: none;
+    background: none;
+}
+
+.clearfix:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+button {
+    outline: none;
+    border: none;
+}

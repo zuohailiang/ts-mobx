@@ -1,12 +1,21 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import './style/reset.css'
 import './index.css';
+
+import {HashRouter} from 'react-router-dom'
+import { Provider } from 'mobx-react'
+import rootStore from './store/index'
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Provider {...new rootStore()}>
+      <HashRouter>
+        <App /> 
+      </HashRouter>
+    </Provider>
   </React.StrictMode>,
   document.getElementById('root')
 );
